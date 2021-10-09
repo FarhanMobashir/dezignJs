@@ -1,7 +1,7 @@
 {
   "name": "dezign",
   "version": "1.0.0",
-  "description": "",
+  "description": "site generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,15 @@
   "keywords": [
     "site-generator"
   ],
+  "bin": {
+    "dezign": "./index.mjs"
+  },
   "author": "Mobashir Farhan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-spinner": "^0.2.10",
+    "commander": "^8.2.0",
+    "ora": "^6.0.1"
+  }
 }

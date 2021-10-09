@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+  background-image: url("https://i.ibb.co/L0pcx5f/lbg.jpg");
+}
+.main {
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgb(204, 203, 203);
+  padding: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.image {
+  border-radius: 10%;
+  width: 300px;
+  height: auto;
+}
+
+.greet {
+  color: rgb(49, 49, 49);
+}
+
+.description {
+  font-weight: 600;
+  color: grey;
+}
+.name {
+  font-size: 40px;
+}
+
+.icon {
+  color: grey;
+  font-size: 30px;
+  margin: 0px 20px;
+}
+
+.icon:hover {
+  color: rgb(46, 46, 46);
+  transition: 0.6s;
+}
