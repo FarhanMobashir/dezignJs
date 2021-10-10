@@ -14,6 +14,10 @@
 - in order to make your project run the command `dezign init <projectname>`
 - `<projectname>` is the name of your project
 - Example run `dezign init my-portfolio`
+- Your site has been created
+
+### Building site with your own data
+
 - After that open your project in any text-editor and change the `userData.json` file as per your requirement.
 - NOTE 1 -> Make sure you follow proper json format while editing the file
 - NOTE 2 -> Make sure you don't add any new field to the data.
