@@ -1,6 +1,6 @@
 # DezignJs
 
-## an easy way to make website using various templates
+## a minimal portfolio website generator
 
 ## How to use it
 
@@ -25,5 +25,10 @@
 - To build the website with your data run `dezign build`
 - That's it your site has been created.
 - Now you can deploy it for free on https://www.netlify.com or follow this guide on deplyoment . link here https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/
+
+### Some important note
+
+- Dont tweak your `index.html`, `style.css` and `template.html` file
+- Only make change in `userData.json`
 
 ## leave a star if it helped you ⭐
